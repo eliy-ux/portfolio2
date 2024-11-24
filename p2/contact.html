@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="x-icon" href="main.jpg">
+
+    <title>Eliyas Teshome|Contact</title>
+    <style>
+      body{
+       background-color: #223;
+      }
+
+      h1 {
+        color: #b74b4b;
+        padding-top: 10px;
+        font-size: 50px;
+        text-align: center;
+        font-family: "poppins", sans-serif;
+        
+      }
+
+      h1 span{
+        color: #f0f0f0;
+        text-shadow: 4px 4px 20px;
+      }
+
+      input {
+        background-color: #223;
+        width: 70%;
+        margin-left: 12%;
+        font-size: 20px;
+        padding: 16px 16px;
+        border-radius: 10px;
+        border-top: 0;
+        border: 0.2px;
+        margin-bottom: 20px;
+        box-shadow: 4px 4px 20px #b74b4b, -4px -4px 20px #b74b4b;
+
+      }
+
+
+
+      textarea {
+        background-color: #223;
+        box-shadow: 4px 4px 20px #b74b4b, -4px -4px 20px #b74b4b;
+        width: 70%;
+        border: 0.2px;
+        margin-left: 12%;
+        font-size: 20px;
+        padding: 16px 16px;
+        border-radius: 10px;
+        border-color: #223;
+        margin-bottom: 25px;
+        font-family: "poppins", sans-serif;
+      }
+
+      input:focus-within {
+        outline: none;
+        border-color: #223;
+        border-width: px;
+      }
+
+      textarea:focus-within {
+        outline: none;
+        border-color: #223;
+        border-width: px;
+      }
+
+      button {
+        background-color: #223;
+        border-radius: 30px;
+        border-color: #b74b4b;
+        
+        font-size: 25px;
+        padding: 10px 10px;
+        text-align: center;
+        display: flex;
+        margin: auto;
+        cursor: pointer;
+        transition: 0.5s;
+      }
+
+      button:hover {
+        background-color: #b74b4b;
+        border: 0.2px;
+        box-shadow: 4px 4px 20px #b74b4b, -4px -4px 20px #b74b4b;
+      }
+    </style>
+    <link rel="stylesheet" href="style .css">
+  </head>
+  <body>
+
+    <header>
+      <a href="#" class="logo">Eliyas <span>.Teshome</span></a>
+        <div id="nav-links">
+          <ul class="menu-items">
+            <a href="index (1).html"> Home</a>
+            <a href="project.html">Projects</a>
+            <a href="skills.html"  class="active">Skills</a>
+            <a href="#">About</a>
+            <a href="contact.html">Contact</a>
+          </ul>
+        </div>
+      </header>
+
+    <h1 id="contact"><span>Contact</span> Me</h1>
+    <input
+      type="text"
+      name="first"
+      placeholder="First Name"
+      autocomplete="off"
+      requierd
+    />
+    <input
+      type="text"
+      name="last"
+      placeholder="Last Name"
+      autocomplete="off"
+      requierd
+    />
+    <input
+      type="email"
+      name="email"
+      placeholder="Email Address"
+      autocomplete="off"
+      requierd
+    />
+    <textarea
+      rows="5"
+      cols="60"
+      name="message"
+      placeholder="Enter Text"
+      autocomplete="off"
+      required
+    ></textarea>
+    <button type="submit" id="Send">Send Message</button>
+  </body>
+</html>
